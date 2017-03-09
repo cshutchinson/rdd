@@ -2,3 +2,30 @@
 .active {
   color: green;
 }
+
+.dev {
+  padding: 1pc;
+  text-align: center;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  border: 2px solid black;
+  width: 20px;
+  border-radius: 5px;
+}
+
+.seat {
+  width: 20px;
+  background-color: gray;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.table {
+  width: 144px;
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+}
